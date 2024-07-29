@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_section {
+  padding: 0;
+  height: 84px;
+  background: #F5F7FA;
+}
+.header_section .container_fluid {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 50px;
+}
+.header_section .container_fluid .logo {
+  transition: all 0.45s ease;
+  height: 20.66px;
+}
+.header_section .container_fluid .logo:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.header_section .container_fluid .nav_bar {
+  padding-left: 120px;
+}
+.header_section .container_fluid .nav_bar ul {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.header_section .container_fluid .nav_bar ul li {
+  list-style-type: none;
+  font-size: 16px;
+}
+.header_section .container_fluid .nav_bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.45s ease;
+}
+.header_section .container_fluid .nav_bar ul li a:hover {
+  border-bottom: 2px solid greenyellow;
+}
+.header_section .container_fluid .cta_btn {
+  padding: 0px;
+  padding-left: 30px;
+}
+.header_section .container_fluid .cta_btn .login {
+  border: none;
+  height: 40px;
+  width: 77px;
+  border-radius: 6px;
+  background: #F5F7FA;
+}
+.header_section .container_fluid .cta_btn .login a {
+  color: green;
+  text-decoration: none;
+}
+.header_section .container_fluid .cta_btn .signin {
+  border: none;
+  height: 40px;
+  width: 77px;
+  border-radius: 6px;
+  background: green;
+}
+.header_section .container_fluid .cta_btn .signin a {
+  color: white;
+  text-decoration: none;
+}
+
+span {
+  color: #4CAF4F;
+}
+
+.hero_section {
+  background: #F5F7FA;
+}
+.hero_section .container_fluid {
+  padding: 120px 10% 130px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 599px;
+  margin: 0;
+}
+.hero_section .container_fluid .hero_headings h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  margin-bottom: 20px;
+}
+.hero_section .container_fluid .hero_headings p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hero_section .container_fluid .hero_headings button {
+  border: none;
+  height: 52px;
+  width: 128px;
+  border-radius: 6px;
+  background: green;
+  transition: all 0.45s ease;
+}
+.hero_section .container_fluid .hero_headings button:hover {
+  transform: scale(0.9);
+}
+.hero_section .container_fluid .hero_headings button a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.45s ease;
+}
+.hero_section .container_fluid .hero_image {
+  height: 407px;
+  width: 391px;
+}
+.hero_section .img {
+  text-align: center;
+}
+
+.clients_section {
+  min-height: 190px;
+}
+.clients_section .container_fluid {
+  padding: 50px;
+}
+.clients_section .container_fluid h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+}
+.clients_section .container_fluid p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.clients_section .container_fluid .clients_logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.community_section {
+  min-height: 416px;
+}
+.community_section .container_fluid {
+  padding: 50px;
+}
+.community_section .container_fluid h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+}
+.community_section .container_fluid p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.community_section .container_fluid .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+  width: Fixed 299px px;
+  height: Hug 280px px;
+  padding: 24px 32px 24px 32px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+.community_section .container_fluid .cards .carda {
+  height: 260px;
+  width: 299px;
+  align-items: center;
+  padding-top: 30px;
+}
+.community_section .container_fluid .cards .carda img {
+  padding-left: 120px;
+  margin-bottom: 10px;
+}
+.community_section .container_fluid .cards .carda h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.unlock_section .container_fluid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  min-height: 433px;
+}
+.unlock_section .container_fluid .unlockheadings {
+  height: 268px;
+  width: 661px;
+}
+.unlock_section .container_fluid .unlockheadings h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+}
+.unlock_section .container_fluid .unlockheadings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.unlock_section .container_fluid .unlockheadings button {
+  border: none;
+  height: 52px;
+  width: 128px;
+  border-radius: 6px;
+  background: green;
+  transition: all 0.45s ease;
+}
+.unlock_section .container_fluid .unlockheadings button:hover {
+  transform: scale(0.9);
+}
+.unlock_section .container_fluid .unlockheadings button a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.45s ease;
+}
+
+.achievements_section {
+  background: #F5F7FA;
+}
+.achievements_section .container_fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+  min-height: 288px;
+}
+.achievements_section .container_fluid .achievements_headings h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+}
+.achievements_section .container_fluid .achievements_headings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.achievements_section .container_fluid .achievements_counts {
+  display: block;
+  justify-content: space-between;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  margin-bottom: 40px;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row1 .row1img {
+  padding-right: 20px;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row1 .row1headings h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row1 .row1headings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row2 {
+  display: flex;
+  justify-content: space-between;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row2 .row2img {
+  padding-right: 24px;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row2 .row2headings h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  padding-right: 40px;
+}
+.achievements_section .container_fluid .achievements_counts .row-1 .row2 .row2headings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  padding-right: 40px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row3 {
+  display: flex;
+  justify-content: space-between;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row3 .row3img {
+  padding-right: 20px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row3 .row3headings h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row3 .row3headings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row4 {
+  display: flex;
+  justify-content: space-between;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row4 .row4img {
+  padding-right: 20px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row4 .row4headings h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+.achievements_section .container_fluid .achievements_counts .row-2 .row4 .row4headings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+}
+
+.calender_section .container_fluid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  min-height: 433px;
+}
+.calender_section .container_fluid .calenderheadings {
+  height: 268px;
+  width: 661px;
+}
+.calender_section .container_fluid .calenderheadings h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+}
+.calender_section .container_fluid .calenderheadings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.calender_section .container_fluid .calenderheadings button {
+  border: none;
+  height: 52px;
+  width: 128px;
+  border-radius: 6px;
+  background: green;
+  transition: all 0.45s ease;
+}
+.calender_section .container_fluid .calenderheadings button:hover {
+  transform: scale(0.9);
+}
+.calender_section .container_fluid .calenderheadings button a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.45s ease;
+}
+
+.customer_section .container_fluid {
+  padding: 32px 114px 32px 114px;
+  min-height: 390px;
+  background: #F5F7FA;
+  display: flex;
+  gap: 78px;
+}
+.customer_section .container_fluid .img {
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  width: 326px;
+  height: 326px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+.customer_section .container_fluid .customerheadings p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+.customer_section .container_fluid .customerheadings h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.customer_section .container_fluid .customerheadings .customer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.communityupdates_section .container_fluid {
+  min-height: 506px;
+  margin: 0px;
+  padding: 32px 114px 32px 114px;
+  text-align: center;
+}
+.communityupdates_section .container_fluid h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #4D4D4D;
+  text-align: center;
+}
+.communityupdates_section .container_fluid p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.communityupdates_section .container_fluid .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.communityupdates_section .container_fluid .cards .card1 {
+  height: 366px;
+  width: 368px;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+}
+.communityupdates_section .container_fluid .cards .card1 .content {
+  background: #F5F7FA;
+  height: 176px;
+  width: 317px;
+  border-radius: 10px;
+  z-index: 8;
+  position: relative;
+  bottom: 100px;
+  left: 25px;
+}
+.communityupdates_section .container_fluid .cards .card1 .content .communit {
+  padding-top: 50px;
+}
+
+.frame16_section .container_fluid {
+  max-height: 300px;
+  padding: 32px 0px 32px 0px;
+  display: block;
+  gap: 32px;
+  text-align: center;
+}
+.frame16_section .container_fluid h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  margin-bottom: 20px;
+}
+.frame16_section .container_fluid button {
+  max-height: 52px;
+  max-width: 178px;
+  border-radius: 4px;
+  padding: 14px 32px 14px 32px;
+  background: #4CAF4F;
+  border: none;
+  text-align: center;
+}
+.frame16_section .container_fluid button a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+.frame16_section .container_fluid button i {
+  color: white;
+}
+
+.footer_section {
+  background: #263238;
+}
+.footer_section .container_fluid {
+  padding: 64px 165px 64px 165px;
+  gap: 125px;
+  opacity: 0px;
+}
+.footer_section .container_fluid footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_section .container_fluid footer .companyinfo {
+  display: block;
+  gap: 40px;
+}
+.footer_section .container_fluid footer .companyinfo img {
+  max-width: 191px;
+  gap: 9.89px;
+  opacity: 0px;
+  max-height: 29.67px;
+  margin-bottom: 40px;
+}
+.footer_section .container_fluid footer .companyinfo h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-bottom: 40px;
+}
+.footer_section .container_fluid footer .companyinfo p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer_section .container_fluid footer .companyinfo .socialicons {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_section .container_fluid footer .linksinfo {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  padding-right: 30px;
+}
+.footer_section .container_fluid footer .linksinfo .company h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  margin-bottom: 40px;
+}
+.footer_section .container_fluid footer .linksinfo .company p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer_section .container_fluid footer .linksinfo .email h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  margin-bottom: 40px;
+}
+.footer_section .container_fluid footer .linksinfo .email .lastdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 255px;
+  height: 40px;
+  top: 52px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0.2px;
+  background: gray;
+  padding: 10px;
+}
+.footer_section .container_fluid footer .linksinfo .email .lastdiv p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.footer_section .container_fluid footer .linksinfo .email .lastdiv img {
+  width: 18px;
+  height: 18px;
+  top: 63px;
+  left: 225px;
+  padding: 0.75px;
+  gap: 0px;
+  opacity: 0px;
+}/*# sourceMappingURL=style.css.map */
